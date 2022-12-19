@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		55C25C4D2951122C0011D88A /* RickAndMortyAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C4C2951122C0011D88A /* RickAndMortyAPIApp.swift */; };
-		55C25C4F2951122C0011D88A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C4E2951122C0011D88A /* ContentView.swift */; };
+		55C25C4F2951122C0011D88A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C4E2951122C0011D88A /* HomeView.swift */; };
 		55C25C512951122E0011D88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C25C502951122E0011D88A /* Assets.xcassets */; };
 		55C25C542951122E0011D88A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C25C532951122E0011D88A /* Preview Assets.xcassets */; };
+		55C25C60295114960011D88A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C5F295114960011D88A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55C25C492951122C0011D88A /* RickAndMortyAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C25C4C2951122C0011D88A /* RickAndMortyAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyAPIApp.swift; sourceTree = "<group>"; };
-		55C25C4E2951122C0011D88A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55C25C4E2951122C0011D88A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		55C25C502951122E0011D88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C25C532951122E0011D88A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55C25C5F295114960011D88A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		55C25C4B2951122C0011D88A /* RickAndMortyAPI */ = {
 			isa = PBXGroup;
 			children = (
+				55C25C5C2951143C0011D88A /* Model */,
+				55C25C5B295114350011D88A /* ViewModel */,
+				55C25C5A295114300011D88A /* View */,
 				55C25C4C2951122C0011D88A /* RickAndMortyAPIApp.swift */,
-				55C25C4E2951122C0011D88A /* ContentView.swift */,
 				55C25C502951122E0011D88A /* Assets.xcassets */,
 				55C25C522951122E0011D88A /* Preview Content */,
 			);
@@ -65,6 +69,37 @@
 				55C25C532951122E0011D88A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55C25C5A295114300011D88A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55C25C5D2951147B0011D88A /* Components */,
+				55C25C4E2951122C0011D88A /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55C25C5B295114350011D88A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55C25C5C2951143C0011D88A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55C25C5D2951147B0011D88A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				55C25C5F295114960011D88A /* Card.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C25C4F2951122C0011D88A /* ContentView.swift in Sources */,
+				55C25C60295114960011D88A /* Card.swift in Sources */,
+				55C25C4F2951122C0011D88A /* HomeView.swift in Sources */,
 				55C25C4D2951122C0011D88A /* RickAndMortyAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
