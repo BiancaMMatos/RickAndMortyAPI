@@ -12,6 +12,8 @@
 		55C25C512951122E0011D88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C25C502951122E0011D88A /* Assets.xcassets */; };
 		55C25C542951122E0011D88A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C25C532951122E0011D88A /* Preview Assets.xcassets */; };
 		55C25C60295114960011D88A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C5F295114960011D88A /* Card.swift */; };
+		55C25C6329511BD10011D88A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C6229511BD10011D88A /* API.swift */; };
+		55C25C6529511D390011D88A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C6429511D390011D88A /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		55C25C502951122E0011D88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C25C532951122E0011D88A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55C25C5F295114960011D88A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		55C25C6229511BD10011D88A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		55C25C6429511D390011D88A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		55C25C5B295114350011D88A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				55C25C6429511D390011D88A /* WebService.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 		55C25C5C2951143C0011D88A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55C25C6229511BD10011D88A /* API.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +180,8 @@
 			files = (
 				55C25C60295114960011D88A /* Card.swift in Sources */,
 				55C25C4F2951122C0011D88A /* HomeView.swift in Sources */,
+				55C25C6329511BD10011D88A /* API.swift in Sources */,
+				55C25C6529511D390011D88A /* WebService.swift in Sources */,
 				55C25C4D2951122C0011D88A /* RickAndMortyAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
